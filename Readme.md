@@ -1,0 +1,1 @@
+Openweather-Node is for get weather from openweather api
