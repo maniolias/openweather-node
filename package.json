@@ -1,0 +1,25 @@
+{
+  "name": "Openweather-Node",
+  "version": "0.0.1",
+  "description": "Get weather from openweather",
+  "main": "lib/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maniolias/Openweather-Node.git"
+  },
+  "keywords": [
+    "Weather"
+  ],
+  "author": "Cédric Rumiano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maniolias/Openweather-Node/issues"
+  },
+  "homepage": "https://github.com/maniolias/Openweather-Node"
+}
