@@ -92,10 +92,7 @@
 			}
 		},
 		{
-			"contents": "# Openweather-Node\n\nOpenweather-Node is for get weather from openweather api.\n\n## Installation\n\n```\nnpm install -g Openweather-Node",
 			"file": "Readme.md",
-			"file_size": 56,
-			"file_write_time": 130383199500000000,
 			"settings":
 			{
 				"buffer_size": 131,
@@ -225,7 +222,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -282,7 +279,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -310,7 +307,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -326,8 +323,8 @@
 						"selection":
 						[
 							[
-								384,
-								384
+								26,
+								26
 							]
 						],
 						"settings":
@@ -340,7 +337,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
