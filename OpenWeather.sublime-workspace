@@ -1,0 +1,250 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"ruches"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"st",
+				"stylus"
+			],
+			[
+				"D",
+				"Datatypes"
+			],
+			[
+				"de",
+				"Deplacement"
+			],
+			[
+				"tra",
+				"TranshumanceId"
+			],
+			[
+				"fo",
+				"foreignKey"
+			],
+			[
+				"Ru",
+				"Rucher"
+			],
+			[
+				"Ruc",
+				"Ruche"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"print",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/views/layout.jade",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/views/index.jade",
+		"/C/Users/Manio/Dropbox/Node/TestDashBoard/views/ventes.jade",
+		"/C/Users/Manio/Dropbox/Node/TestDashBoard/views/exploitation.jade",
+		"/C/Users/Manio/Dropbox/Node/TestDashBoard/views/index.jade",
+		"/C/Users/Manio/Dropbox/Node/TestDashBoard/package.json",
+		"/C/Users/Manio/Dropbox/Node/TestDashBoard/style.css",
+		"/C/Users/Manio/Dropbox/Node/TestDashBoard/public/stylesheets/style.css",
+		"/C/Users/Manio/Dropbox/Node/TestDesign/views/layout.jade",
+		"/C/Users/Manio/Dropbox/Node/TestDesign/app.js",
+		"/C/Users/Manio/Dropbox/Node/TestDesign/public/stylesheets/style.styl",
+		"/C/Users/Manio/Dropbox/Node/TestDesign/public/javascripts/Jquery.js",
+		"/C/Users/Manio/Dropbox/Node/TestDesign/views/index.jade",
+		"/C/Users/Manio/Downloads/ContexteGSB-V1.2/PPE/02-ApplicationFrais/Ressources/GSB-GenerationDonnees/include/fct.inc.php",
+		"/C/Users/Manio/Downloads/ContexteGSB-V1.2/PPE/02-ApplicationFrais/Ressources/GSB-GenerationDonnees/majGSB_main.php",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/rucher.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/deplacement.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/fournisseur.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/reine.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/typeRuche.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/index.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/index.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/deplacement.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/couleur.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/reine.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/ruche.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/rucher.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/transhumance.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/typeRuche.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/fournisseur.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/ruche.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/app.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/couleur.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/transhumance.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/package.json"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"darken",
+			"cherche",
+			"sync",
+			");\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "OpenWeather.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
