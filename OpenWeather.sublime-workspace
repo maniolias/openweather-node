@@ -1,0 +1,456 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"list"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"re",
+				"requestWeather"
+			],
+			[
+				"cons",
+				"constructUrl"
+			],
+			[
+				"fo",
+				"forecastType"
+			],
+			[
+				"ty",
+				"type"
+			],
+			[
+				"r",
+				"ruches"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"st",
+				"stylus"
+			],
+			[
+				"D",
+				"Datatypes"
+			],
+			[
+				"de",
+				"Deplacement"
+			],
+			[
+				"tra",
+				"TranshumanceId"
+			],
+			[
+				"Ru",
+				"Rucher"
+			],
+			[
+				"Ruc",
+				"Ruche"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"print",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/main.js",
+			"settings":
+			{
+				"buffer_size": 2624,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n## Installation\n\n```\nnpm install -g yo generator-release\n```\n\nA config file, `~/.config/generator-release`, needs to be created. This is standard CommonJS module exporting github authentication [options](https://github.com/michael/github#usage). The easiest way to configure the authentication is to go to the GitHub admin panel and create a [Personal Access Token](https://github.com/settings/tokens/new), then set it as the `token` in your config. \n\nOptionally the module may export a `linkFilter` method that allows for parsing of links included in the body of notes issues and pull requests.\n\n### Example\n\n```javascript\nmodule.exports = {\n  auth: 'oauth',\n  token: 'GitHub OAuth token',\n\n  linkFilter: function(link) {\n    return /atlassian\\.net/.test(link.url);\n  }\n};\n```\n\n## Usage\n\n### Generating release notes\n```\nyo release:notes\n```\n\nWill generate a template for the release notes including:\n- Github issues closed since the last release\n- Gitub pull requests closed since the last release\n- Commits not associated with pull requests\n\nThis should be manually edited to ensure that only relevant content is display and any additional gotchas and upgrade concerns noted. If the `$EDITOR` environment variable is setup the generator will automate the checkin of the updated notes.\n\n\n### Releasing\n\n```\nyo release:release [major|minor|patch|prerelease]\n```\n\nWill increment the release version per the semver action passed in and tag and pushes to the upstream repository.\n\nIf publishing to npm the `npm publish` command is still required.\n\nThe increment parameter is optional and not recommended if the release notes were just updated for the project.\n\n### Single Command Release\n\n```\nyo release\n```\n\nShorthand for the tasks above. Will execute both the notes and release tasks via a single command. Note that the `$EDITOR` environment variable must be set to a supporting editor to use this mode.\n\n### Comparing NPM and Bower collections\nnpm\n```\nyo release:collect-versions npm > oldVersion.json\nyo release:diff oldVersion.json npm\n```\nbower\n```\nyo release:collect-versions bower > oldVersion.json\nyo release:diff oldVersion.json bower\n```\n\nGenerates a report of the versions that have changed for all packages. Includes release notes for packages that include them.\n\nNote that the arguments to `release:diff` may be any combination of files or `npm`/`bower` meta commands.\n\n### Publishing\n```\nyo release:publish [cdnjs|components] projectName sourceDir\n```\n\nPushes a particular directory of artifacts to cdnjs or the github components project, optionally creating pull requests if the executing user does not have adequate permissions to directly push.\n\nNote that at this time only frontend publishing is possible. NPM publishing should still be done directly through the `npm publish` command.\n\n\n[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/walmartlabs/generator-release/trend.png)](https://bitdeli.com/free \"Bitdeli Badge\")\n",
+			"settings":
+			{
+				"buffer_size": 2946,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Readme.md",
+			"settings":
+			{
+				"buffer_size": 131,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 601,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/weather.js",
+			"settings":
+			{
+				"buffer_size": 3067,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Manio/Dropbox/Node/Openweather-Node/package.json",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/views/layout.jade",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/views/index.jade",
+		"/C/Users/Manio/Dropbox/Node/TestDashBoard/views/ventes.jade",
+		"/C/Users/Manio/Dropbox/Node/TestDashBoard/views/exploitation.jade",
+		"/C/Users/Manio/Dropbox/Node/TestDashBoard/views/index.jade",
+		"/C/Users/Manio/Dropbox/Node/TestDashBoard/package.json",
+		"/C/Users/Manio/Dropbox/Node/TestDashBoard/style.css",
+		"/C/Users/Manio/Dropbox/Node/TestDashBoard/public/stylesheets/style.css",
+		"/C/Users/Manio/Dropbox/Node/TestDesign/views/layout.jade",
+		"/C/Users/Manio/Dropbox/Node/TestDesign/app.js",
+		"/C/Users/Manio/Dropbox/Node/TestDesign/public/stylesheets/style.styl",
+		"/C/Users/Manio/Dropbox/Node/TestDesign/public/javascripts/Jquery.js",
+		"/C/Users/Manio/Dropbox/Node/TestDesign/views/index.jade",
+		"/C/Users/Manio/Downloads/ContexteGSB-V1.2/PPE/02-ApplicationFrais/Ressources/GSB-GenerationDonnees/include/fct.inc.php",
+		"/C/Users/Manio/Downloads/ContexteGSB-V1.2/PPE/02-ApplicationFrais/Ressources/GSB-GenerationDonnees/majGSB_main.php",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/rucher.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/deplacement.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/fournisseur.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/reine.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/typeRuche.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/index.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/index.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/deplacement.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/couleur.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/reine.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/ruche.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/rucher.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/transhumance.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/typeRuche.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/routes/fournisseur.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/ruche.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/app.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/couleur.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/models/transhumance.js",
+		"/C/Users/Manio/Dropbox/Node/Apigiciel/package.json"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"-./node_mosules/*",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"console.log",
+			"[pos]",
+			"darken",
+			"cherche",
+			"sync",
+			");\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								732,
+								732
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								720,
+								720
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/weather.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3067,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1810,
+								1810
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "OpenWeather.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
