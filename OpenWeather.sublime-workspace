@@ -222,7 +222,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -266,8 +266,8 @@
 						"selection":
 						[
 							[
-								57,
-								1
+								720,
+								720
 							]
 						],
 						"settings":
@@ -276,10 +276,10 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1080.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -296,7 +296,7 @@
 						[
 							[
 								131,
-								131
+								0
 							]
 						],
 						"settings":
@@ -307,7 +307,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
