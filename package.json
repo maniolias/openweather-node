@@ -1,6 +1,6 @@
 {
   "name": "openweather-node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Get weather from openweather",
   "main": "lib/main.js",
   "directories": {
@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/maniolias/Openweather-Node",
   "dependencies": {
+    "mocha": "~1.17.1"
+  },
+  "devDependencies": {
     "mocha": "~1.17.1"
   }
 }
