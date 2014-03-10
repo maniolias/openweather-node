@@ -84,34 +84,10 @@
 			}
 		},
 		{
-			"contents": "\n## Installation\n\n```\nnpm install -g yo generator-release\n```\n\nA config file, `~/.config/generator-release`, needs to be created. This is standard CommonJS module exporting github authentication [options](https://github.com/michael/github#usage). The easiest way to configure the authentication is to go to the GitHub admin panel and create a [Personal Access Token](https://github.com/settings/tokens/new), then set it as the `token` in your config. \n\nOptionally the module may export a `linkFilter` method that allows for parsing of links included in the body of notes issues and pull requests.\n\n### Example\n\n```javascript\nmodule.exports = {\n  auth: 'oauth',\n  token: 'GitHub OAuth token',\n\n  linkFilter: function(link) {\n    return /atlassian\\.net/.test(link.url);\n  }\n};\n```\n\n## Usage\n\n### Generating release notes\n```\nyo release:notes\n```\n\nWill generate a template for the release notes including:\n- Github issues closed since the last release\n- Gitub pull requests closed since the last release\n- Commits not associated with pull requests\n\nThis should be manually edited to ensure that only relevant content is display and any additional gotchas and upgrade concerns noted. If the `$EDITOR` environment variable is setup the generator will automate the checkin of the updated notes.\n\n\n### Releasing\n\n```\nyo release:release [major|minor|patch|prerelease]\n```\n\nWill increment the release version per the semver action passed in and tag and pushes to the upstream repository.\n\nIf publishing to npm the `npm publish` command is still required.\n\nThe increment parameter is optional and not recommended if the release notes were just updated for the project.\n\n### Single Command Release\n\n```\nyo release\n```\n\nShorthand for the tasks above. Will execute both the notes and release tasks via a single command. Note that the `$EDITOR` environment variable must be set to a supporting editor to use this mode.\n\n### Comparing NPM and Bower collections\nnpm\n```\nyo release:collect-versions npm > oldVersion.json\nyo release:diff oldVersion.json npm\n```\nbower\n```\nyo release:collect-versions bower > oldVersion.json\nyo release:diff oldVersion.json bower\n```\n\nGenerates a report of the versions that have changed for all packages. Includes release notes for packages that include them.\n\nNote that the arguments to `release:diff` may be any combination of files or `npm`/`bower` meta commands.\n\n### Publishing\n```\nyo release:publish [cdnjs|components] projectName sourceDir\n```\n\nPushes a particular directory of artifacts to cdnjs or the github components project, optionally creating pull requests if the executing user does not have adequate permissions to directly push.\n\nNote that at this time only frontend publishing is possible. NPM publishing should still be done directly through the `npm publish` command.\n\n\n[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/walmartlabs/generator-release/trend.png)](https://bitdeli.com/free \"Bitdeli Badge\")\n",
-			"settings":
-			{
-				"buffer_size": 2946,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Readme.md",
-			"settings":
-			{
-				"buffer_size": 131,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 601,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "lib/weather.js",
 			"settings":
 			{
-				"buffer_size": 3067,
+				"buffer_size": 3380,
 				"line_ending": "Windows"
 			}
 		}
@@ -143,6 +119,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Manio/Dropbox/Node/openweather-node/package.json",
+		"/C/Users/Manio/Dropbox/Node/openweather-node/Readme.md",
+		"/C/Users/manio/Dropbox/CartesEasel/test.html",
 		"/C/Users/Manio/Dropbox/Node/Openweather-Node/package.json",
 		"/C/Users/Manio/Dropbox/Node/Apigiciel/views/layout.jade",
 		"/C/Users/Manio/Dropbox/Node/Apigiciel/views/index.jade",
@@ -222,7 +201,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -238,8 +217,8 @@
 						"selection":
 						[
 							[
-								732,
-								732
+								327,
+								342
 							]
 						],
 						"settings":
@@ -248,113 +227,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2946,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								720,
-								720
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1080.0,
+						"translation.y": 720.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "Readme.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 131,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								131,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 601,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								26,
-								26
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 1,
 					"file": "lib/weather.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3067,
+						"buffer_size": 3380,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1810,
-								1810
+								50,
+								50
 							]
 						],
 						"settings":
@@ -363,10 +256,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 585.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
