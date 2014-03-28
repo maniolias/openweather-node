@@ -133,7 +133,7 @@ weather.find("Location",function(err, find)
 })
 ```
 
-### Objetc format
+### Object format
 
 ```javascript
 { time: Sat Jan 17 1970 04:46:47 GMT+0100 (Paris, Madrid), //Javascript Datetime
@@ -147,11 +147,4 @@ weather.find("Location",function(err, find)
      icon: 'http://openForecastmap.org/img/w/02d.png' },
   clouds: 8,
   wind: { speed: 2.1, deg: 0 } }
-{ day: 13.47, min: 12.22, max: 15 }
-{ day: 16.22,
-  min: 6.02,
-  max: 17.34,
-  night: 6.02,
-  eve: 13.31,
-  morn: 11.42 }
 ```
