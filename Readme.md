@@ -122,15 +122,6 @@ weather.forecast(["location1","location2"],function(err, datas)
 		})
 	}
 })
-
-weather.find("Location",function(err, find)
-{
-	if(err) console.log(err);
-	else
-	{
-		find.toCityArray()
-	}
-})
 ```
 
 ### Object format
