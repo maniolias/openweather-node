@@ -44,6 +44,8 @@ weather.setAPPID("Your API Key");
 weather.setCulture("fr");
 //set the forecast type
 weather.setForecastType("daily"); //or "" for 3 hours forecast
+//set the unit
+weather.setUnits("metric"); //internal, metric or imperial
 ```
 
 ### Use the differents function
@@ -129,4 +131,27 @@ weather.find("Location",function(err, find)
 		find.toCityArray()
 	}
 })
+```
+
+### Objetc format
+
+```javascript
+{ time: Sat Jan 17 1970 04:46:47 GMT+0100 (Paris, Madrid), //Javascript Datetime
+  temp: { day: 13.47, min: 12.22, max: 15 },
+  pressure: 1014,
+  humidity: 41,
+  weather: 
+   { id: 800,
+     main: 'Clear',
+     description: 'ensoleillé',
+     icon: 'http://openForecastmap.org/img/w/02d.png' },
+  clouds: 8,
+  wind: { speed: 2.1, deg: 0 } }
+{ day: 13.47, min: 12.22, max: 15 }
+{ day: 16.22,
+  min: 6.02,
+  max: 17.34,
+  night: 6.02,
+  eve: 13.31,
+  morn: 11.42 }
 ```
