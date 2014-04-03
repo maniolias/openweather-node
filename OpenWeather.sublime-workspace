@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"da",
+				"daily"
+			],
+			[
+				"for",
+				"forecast"
+			],
+			[
+				"resu",
+				"result"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"p",
+				"push"
+			],
+			[
+				"w",
+				"weather"
+			],
+			[
 				"l",
 				"list"
 			],
@@ -32,10 +56,6 @@
 				"ruches"
 			],
 			[
-				"p",
-				"padding"
-			],
-			[
 				"bor",
 				"border-top"
 			],
@@ -46,10 +66,6 @@
 			[
 				"D",
 				"Datatypes"
-			],
-			[
-				"de",
-				"Deplacement"
 			],
 			[
 				"tra",
@@ -79,7 +95,23 @@
 			"file": "lib/main.js",
 			"settings":
 			{
-				"buffer_size": 2724,
+				"buffer_size": 2834,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 553,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Manio/Dropbox/Node/testing npm/app.js",
+			"settings":
+			{
+				"buffer_size": 170,
 				"line_ending": "Windows"
 			}
 		},
@@ -87,15 +119,7 @@
 			"file": "lib/weather.js",
 			"settings":
 			{
-				"buffer_size": 3449,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Readme.md",
-			"settings":
-			{
-				"buffer_size": 2690,
+				"buffer_size": 4183,
 				"line_ending": "Windows"
 			}
 		}
@@ -127,10 +151,11 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Manio/Dropbox/Node/openweather-node/test/main.js",
+		"/C/Users/Manio/Dropbox/Node/openweather-node/Readme.md",
 		"/C/Users/Manio/Dropbox/Node/test migration/config/config.json",
 		"/C/Users/Manio/Dropbox/Node/test migration/migrations/20140310200557-create-tables.js",
 		"/C/Users/Manio/Dropbox/Node/openweather-node/package.json",
-		"/C/Users/Manio/Dropbox/Node/openweather-node/Readme.md",
 		"/C/Users/manio/Dropbox/CartesEasel/test.html",
 		"/C/Users/Manio/Dropbox/Node/Openweather-Node/package.json",
 		"/C/Users/Manio/Dropbox/Node/Apigiciel/views/layout.jade",
@@ -217,7 +242,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -226,15 +251,102 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2724,
+						"buffer_size": 2834,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								916,
-								916
+								1964,
+								1964
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1215.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 553,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								550,
+								550
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Manio/Dropbox/Node/testing npm/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/weather.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
 							]
 						],
 						"settings":
@@ -246,65 +358,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "lib/weather.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3449,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1046,
-								1046
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1665.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Readme.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2690,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2683,
-								2683
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1170.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
