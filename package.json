@@ -2,12 +2,9 @@
   "name": "openweather-node",
   "version": "0.0.4-dev",
   "description": "Get weather from openweather",
-  "main": "lib/main.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "lib/index.js",
   "scripts": {
-    "test": "mocha test/*.js"
+    "test": "grunt nodeunit"
   },
   "repository": {
     "type": "git",
@@ -23,6 +20,14 @@
   },
   "homepage": "https://github.com/maniolias/Openweather-Node",
   "dependencies": {
-    "mocha": "~1.17.1"
+    "mocha": "~1.17.1",
+    "chai": "~1.10.0",
+    "lodash": "~3.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
   }
 }
