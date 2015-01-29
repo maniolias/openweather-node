@@ -1,6 +1,6 @@
 {
   "name": "openweather-node",
-  "version": "0.0.3",
+  "version": "0.0.4-dev",
   "description": "Get weather from openweather",
   "main": "lib/main.js",
   "directories": {
@@ -17,7 +17,7 @@
     "Weather"
   ],
   "author": "maniolias",
-  "license": "ISC",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/maniolias/Openweather-Node/issues"
   },
