@@ -4,7 +4,7 @@
   "description": "Get weather from openweather",
   "main": "lib/index.js",
   "scripts": {
-    "test": "grunt nodeunit"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
