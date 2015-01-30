@@ -16,7 +16,7 @@ before_script:
 
 # Running the tests with grunt
 script:
-  - grunt nodeunit
+  - grunt test
 
 # Tell istanbul to generate a coverage report
 after_script:
