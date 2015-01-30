@@ -1,4 +1,4 @@
-# Openweather-Node
+# Openweather-Node [![Build Status](https://api.shippable.com/projects/54cac91e5ab6cc13528a4182/badge?branchName=dev)](https://app.shippable.com/projects/54cac91e5ab6cc13528a4182/builds/latest)
 
 Openweather-Node is for get weather from openweather api.
 
