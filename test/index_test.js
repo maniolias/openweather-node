@@ -56,7 +56,7 @@ describe('Main', function() {
 		});
 	});
 
-	describe('#query', function() {
+	describe('#weather', function() {
 		it('should get the weather for lyon with name', function(done) {
 			API.now('Lyon', function(err, data) {
 				expect(err).to.not.exist;
@@ -83,5 +83,17 @@ describe('Main', function() {
 				done();
 			});
 		});
+	});
+
+	describe('#box', function() {
+		it('should get the weather for a rectangle', function(done) {
+			API.box('12,32,15,37,10', function(err, data) {
+				expect(err).to.not.exist;
+				expect(data).to.exist;
+				expect(data).to.have.keys(['cod', 'calctime', 'cnt', 'list']);
+				done();
+			});
+		});
+
 	});
 });
