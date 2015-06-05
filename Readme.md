@@ -50,7 +50,7 @@ weather.setForecastType("daily"); //or "" for 3 hours forecast
 
 ```javascript
 weather.now("Location",function(err, aData)
-//Location can be id, city name or coordinate ([lat,lon])
+//Location can be id, city name (coordinates can only be used with an array of location see the next explaination)
 {	
 	if(err) console.log(err);
 	else
@@ -70,7 +70,7 @@ weather.now("Location",function(err, aData)
 	}
 })
 
-//if you give an array of location you get an array of weathers
+//if you give an array of location you get an array of weathers, you can provide array of coordinates ([[lat,lon],[...]])
 weather.now(["location1","location2"],function(err, datas)
 //Location can be id, city name or coordinate ([lat,lon])
 {
